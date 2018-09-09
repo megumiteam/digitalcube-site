@@ -1,0 +1,206 @@
+/*
+ Theme Name:     DigitalCube
+ Theme URI:      https://digitalcube.jp
+ Description:    DigitalCube Child Theme
+ Author:         DigitalCube
+ Author URI:     https://digitalcube.jp
+ Template:       Divi
+ Version:        1.0.0
+*/
+/* =Theme customization starts here
+------------------------------------------------------- */
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.et_post_meta_wrapper {
+  display: none;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.links-small {
+  font-size: 10px;
+}
+
+.srvc-link:hover {
+  background-color: #eee;
+  transition: .2s;
+}
+
+.medium-gray {
+  color: #666 !important;
+}
+
+.light-gray {
+  color: #F8F8F8 !important;
+}
+
+.btn-link:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.solutions-slider ul.slick-dots {
+  top: 100%;
+}
+
+.single-solution .container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.stat-title {
+  font-size: 10px;
+}
+
+.stat-info {
+  font-size: 46px;
+  font-weight: 300;
+}
+
+/* Blog */
+.single .post {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#left-area {
+  padding-bottom: 0;
+}
+
+.blog-posts .post-content {
+  display: none;
+}
+
+.blog-posts .column {
+  margin-right: 1% !important;
+  width: 32% !important;
+}
+
+.blog-posts.column {
+  margin-right: 1% !important;
+  width: 32% !important;
+}
+
+.blog-posts h5 {
+  margin-left: -5%;
+}
+
+.blog-posts p {
+  margin-left: -5%;
+}
+
+/* Blog Related Posts */
+.blog-related-posts .post-content {
+  display: none;
+}
+
+.blog-related-posts .column {
+  margin-right: 1% !important;
+  width: 32% !important;
+}
+
+.blog-related-posts h5 {
+  margin-left: -5%;
+}
+
+.blog-related-posts p {
+  margin-left: -5%;
+}
+
+/* Brand Assets */
+.asset-thumb {
+  height: 200px;
+  padding-top: 25%;
+}
+
+/* Footer */
+#main-footer {
+  font-weight: 300;
+}
+
+#footer-widgets {
+  padding-top: 40px;
+}
+
+.footer-widget {
+  margin-bottom: 40px !important;
+}
+
+div#text-3 {
+  float: none;
+  text-align: center;
+}
+
+div#text-4 {
+  float: right;
+}
+
+#footer-bottom {
+  display: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .et_pb_section {
+    max-width: 100% !important;
+  }
+
+  .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-top: 5% !important;
+  }
+
+  .slick-slide .slick-current .slick-active {
+    width: 25% !important;
+  }
+
+  .slick-list .draggable {
+    height: 220px;
+  }
+
+  .srvc-link {
+    margin-top: 2%;
+    margin-right: 0;
+  }
+
+  #srvc-links {
+    max-width: 100% !important;
+  }
+
+  #intro-hdr {
+    padding-bottom: 0;
+  }
+
+  #home-slider {
+    padding-bottom: 0;
+    height: 220px;
+  }
+}
